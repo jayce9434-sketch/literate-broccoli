@@ -1,0 +1,37 @@
+MELODIC ISLES: RESONANCE - QA REPORT
+Build date: 2026-10-09
+
+Static validation
+- JavaScript syntax: PASS (catalog.js, monster-art.js, save-tools.js, audio-engine.js, game.js, pwa.js, sw.js)
+- External/CDN runtime URLs: NONE
+- In-game emoji codepoints: 0
+- Islands: 5
+- Species: 55
+- Collection forms: 220
+- PWA manifest: present
+- Service worker: present
+- iOS/desktop responsive CSS: present
+- Save export/import: present
+- Offline real-time breeding and coin timestamps: present
+- Music/SFX volume range: 0-2000%
+- QA Gems: +3,000 with 0.1 second cooldown
+
+Browser runtime validation (Chromium)
+- Main island render: PASS, 0 runtime errors
+- Market render: PASS, 0 runtime errors
+- Breeding render: PASS, 0 runtime errors
+- Collection render: PASS, 0 runtime errors
+- Tideglass Reef iPad viewport render: PASS, 0 runtime errors
+- Collect monster coins: PASS
+- Monster detail + feed/level: PASS
+- QA Gems button: PASS
+- Audio slider to 2000%: PASS
+- Select two level-4+ breeders: PASS
+- Start breeding timer: PASS
+
+Five actual build screenshots are included at repository root:
+- test-1-island.png
+- test-2-market.png
+- test-3-breeding.png
+- test-4-collection.png
+- test-5-reef-ipad.png
